@@ -4,7 +4,6 @@ import sys
 sys.path.append('..')
 from pythoncode.Calculator import Calculator
 import yaml
-import math
 
 def get_datas():
     with open("./datas/calc.yml") as f:
