@@ -11,7 +11,6 @@ def get_datas():
         datas = yaml.safe_load(f)
     return (datas['add']['datas'],datas['add']['ids'],datas['div']['datas'],datas['div']['ids'])
 
-
 class TestCalc:
     datas:list = get_datas()
     def setup_class(self):
