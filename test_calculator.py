@@ -5,12 +5,11 @@ sys.path.append('..')
 from pythoncode.Calculator import Calculator
 import yaml
 
+
 def get_datas():
     with open("./datas/calc.yml") as f:
         datas = yaml.safe_load(f)
     return (datas['add']['datas'],datas['add']['ids'],datas['div']['datas'],datas['div']['ids'])
-
-
 
 class TestCalc:
     datas:list = get_datas()
