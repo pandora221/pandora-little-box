@@ -20,6 +20,7 @@ class TestCalc:
     def teardown_class(self):
         print("结束计算")
 
+
     #相加功能
     @pytest.mark.parametrize("a,b, result",datas[0],ids=datas[1])
     def test_add(self,a,b,result):
