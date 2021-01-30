@@ -36,3 +36,4 @@ class TestCalc:
             with pytest.raises(ZeroDivisionError):
                 self.calc.div(a,b)
 
+
